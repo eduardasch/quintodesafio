@@ -1,0 +1,56 @@
+.logo{
+    margin: 1vh;
+    max-height: 35px;
+    border-radius: 90px;
+}
+.menu{
+    max-height: 25px;
+}
+.texto{
+    font-style: unset;
+    position: absolute;
+    top: 25%;
+    left: 36%;
+
+}
+.menus{
+    margin-left: 90vw;
+}
+.imagem1{
+    border-radius: 30px;
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 19%;
+}
+
+.imagem2{
+    max-height: 225px;
+    border-radius: 30px;
+    margin: 70px;
+    position: absolute;
+    top: 48%;
+    left: 65%;
+}
+
+.info{
+    margin: 70px;
+    position: absolute;
+    top: 50%;
+    left: 45%
+}
+
+body{
+    margin: 0px;
+    height: 100vh;
+    box-sizing: border-box;
+    background: -webkit-linear-gradient(rgb(60, 171, 245), rgb(1, 19, 46))
+   repeat-x
+}
+.divisao{
+    background-color: azure;
+    padding: 2px;
+}
+
+
+
