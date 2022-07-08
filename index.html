@@ -8,9 +8,34 @@
     <link rel="stylesheet" href="stily.css">
 </head>
 <body>
-    <div class="divisao"><img src="cerebro.jpeg" alt="" class="logo">
-    <button class="menus"><img src="menu.png" alt="" class="menu"></button>
-    </div>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+            <img src="cerebro.jpeg" alt="">
+            </div>
+            <div class="nev-list">
+                <ul>
+                    <li class="item"><a href="#" class="nav-link">sobre</a></li>
+                    <li class="item"><a href="#" class="nav-link">projeto</a></li>
+                </ul>
+            </div>
+            <div class="login-button">
+                <button><a href="#">entrar</a></button>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menushow()"><img class="icon" src="menu.png" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="item"><a href="#" class="nav-link">sobre</a></li>
+                <li class="item"><a href="#" class="nav-link">projeto</a></li>
+            </ul>
+            <div class="login-button">
+                <button><a href="#">entrar</a></button>
+            </div>
+        </div>
+    </header>
     <h1>Brain-cursos</h1>
     
     <P class="texto">Atendendo mais de 600 cidades e em todos os estados brasileiros a rede IM teve um crescimento rápido e dinâmico,
